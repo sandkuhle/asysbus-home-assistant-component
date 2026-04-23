@@ -15,7 +15,7 @@ import os.path
 import re
 import voluptuous as vol
 
-from serial_asyncio import open_serial_connection
+from serial_asyncio_fast import open_serial_connection
 
 from homeassistant.const import (
     EVENT_HOMEASSISTANT_START, EVENT_HOMEASSISTANT_STOP
